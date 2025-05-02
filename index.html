@@ -21,7 +21,7 @@
         background-color: #f5f5f5;
         color: #333;
       }
-      #root {
+      .app {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -37,6 +37,22 @@
         padding: 20px;
         text-align: center;
       }
+      .header nav {
+        margin-top: 20px;
+      }
+      .header a, .header button {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 8px 16px;
+        border: 1px solid white;
+        border-radius: 4px;
+        background: none;
+        cursor: pointer;
+      }
+      .header a:hover, .header button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
       .content {
         flex: 1;
         padding: 20px;
@@ -44,9 +60,20 @@
       .footer {
         background-color: #1976d2;
         color: white;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
         margin-top: auto;
+      }
+      .footer nav {
+        margin-top: 10px;
+      }
+      .footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      .footer a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
