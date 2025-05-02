@@ -1,0 +1,10 @@
+{
+  "short_name": "LinkNote",
+  "name": "LinkNote - 노트 작성 및 관리",
+  "description": "간단하고 직관적인 노트 작성 및 관리 웹 애플리케이션",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1976d2",
+  "background_color": "#f5f5f5"
+} 

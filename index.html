@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="LinkNote - 간단하고 직관적인 노트 작성 및 관리 웹 애플리케이션"
+    />
+    <title>LinkNote</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        background-color: #1976d2;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .content {
+        flex: 1;
+        padding: 20px;
+      }
+      .footer {
+        background-color: #1976d2;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>이 앱을 실행하려면 JavaScript를 활성화해야 합니다.</noscript>
+    <div id="root">
+      <div class="header">
+        <h1>LinkNote</h1>
+        <p>간단하고 직관적인 노트 작성 및 관리</p>
+      </div>
+      <div class="content">
+        <div class="container">
+          <!-- React 앱이 여기에 렌더링됩니다 -->
+        </div>
+      </div>
+      <div class="footer">
+        <p>© 2024 LinkNote. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html> 
